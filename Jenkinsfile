@@ -10,7 +10,7 @@ pipeline {
       }
     }
 
-    stage('Build image') {
+    stage('Check jenkinsfile') {
       steps {
         sh '''#!/bin/bash
         cat Jenkinsfile
