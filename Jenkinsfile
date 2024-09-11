@@ -25,5 +25,13 @@ pipeline {
         '''
       }
     }
+
+    stage('Push image') {
+      steps {
+        sh '''#!/bin/bash
+        echo "Push image done"
+        '''
+      }
+    }
   }
 }
