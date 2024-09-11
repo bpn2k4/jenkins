@@ -33,5 +33,13 @@ pipeline {
         '''
       }
     }
+
+    stage('Deploy image') {
+      steps {
+        sh '''#!/bin/bash
+        echo "Deploy image done"
+        '''
+      }
+    }
   }
 }
